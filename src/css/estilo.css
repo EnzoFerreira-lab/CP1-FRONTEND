@@ -1,8 +1,8 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+  }
     
 body {
     background: #f4f4f4;
@@ -68,4 +68,29 @@ main {
   color: #fff;
   border-radius: 30px;
   text-align: center;
+}
+.produto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-weight: 700;
+  margin-top: 50px;
+  color: aqua;
+  font-size: 1.7rem;
+}
+
+button {
+  background: aquamarine;
+  margin-top: 30px;
+  padding: 15px 45px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #021b2b;
+  color: aqua;
 }
