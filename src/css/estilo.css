@@ -4,7 +4,14 @@
     box-sizing: border-box;
     }
     
-    body {
-      background: #f4f4f4;
-      font-family: sans-serif;
-    }
+body {
+    background: #f4f4f4;
+    font-family: sans-serif;
+}
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
